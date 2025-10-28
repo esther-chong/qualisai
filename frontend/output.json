@@ -1,0 +1,19 @@
+{
+"jobId": "test-job-123",
+"dataRef": "gs://gcp_31_raw/dummy.csv",
+"summary": {
+"totalChecks": 8,
+"passedChecks": 6,
+"failedChecks": 2
+},
+"results": [
+{"check": {"type": "not_null", "column": "id"}, "outcome": "pass"},
+{"check": {"type": "range", "column": "id", "min": 0.9, "max": 5.5}, "outcome": "pass"},
+{"check": {"type": "not_null", "column": "name"}, "outcome": "pass"},
+{"check": {"type": "length", "column": "name", "max_length": 17}, "outcome": "pass"},
+{"check": {"type": "not_null", "column": "age"}, "outcome": "pass"},
+{"check": {"type": "range", "column": "age", "min": 21.6, "max": 46.2}, "outcome": "fail", "details": "Found 1 value outside the range."},
+{"check": {"type": "not_null", "column": "city"}, "outcome": "pass"},
+{"check": {"type": "length", "column": "city", "max_length": 21}, "outcome": "fail", "details": "Found 1 value with length greater than 21."}
+]
+}

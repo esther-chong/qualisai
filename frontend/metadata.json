@@ -1,0 +1,5 @@
+{
+  "name": "AI Data Quality Dashboard",
+  "description": "An intelligent dashboard that monitors data quality and data transfer agents, providing detailed insights and AI-powered summaries for data objects.",
+  "requestFramePermissions": []
+}
