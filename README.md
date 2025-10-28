@@ -7,7 +7,7 @@ Extended manual processes and prolonged time to obtain insights, often taking mo
 Inadequate data quality that hinders effective business decision-making, customer personalisation, compliance reporting, and sustainability management.
 An inability to expand Agentic AI initiatives due to a weak data quality foundation.
 
-Industry benchmarks estimate that by 2030, the business impact from productivity losses, compliance challenge 45 billion annually, and limitations in scaling due to data quality issues could approach €,
+Industry benchmarks estimate that by 2030, the business impact from productivity losses, compliance challenges, estimating at 35–45 euro billion annually, and limitations in scaling due to data quality issues could approach €,
 highlighting the critical need for enhanced data quality automation.
 
 Novel solution:
